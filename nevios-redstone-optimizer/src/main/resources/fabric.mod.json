@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nevios_redstone_optimizer",
+  "version": "${version}",
+  "name": "Nevios Redstone Optimizer",
+  "description": "Reduziert Lags bei großen Redstone-Farmen: Redstone-Bauteile können ohne Animation, ohne Partikel und ohne Rendering laufen. Einstellungen per GUI (Standard-Taste: Ü).",
+  "authors": ["Nevios"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.nevios.redstoneoptimizer.NeviosRedstoneOptimizerClient"]
+  },
+  "mixins": [
+    {
+      "config": "nevios_redstone_optimizer.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

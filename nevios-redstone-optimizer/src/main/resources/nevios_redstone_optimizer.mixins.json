@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "de.nevios.redstoneoptimizer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "BlockStateBaseMixin",
+    "LevelRendererMixin",
+    "ParticleEngineMixin",
+    "PistonHeadRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
